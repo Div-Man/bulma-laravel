@@ -6,12 +6,14 @@
 5. php artisan migrate
 если будет ругаться, при запуске миграций, то открыть файл
 
-app\Providers\CategoryServiceProvider.php
+```app\Providers\CategoryServiceProvider.php```
 
 и закомментировать строчки
 
+```
 $category = Category::all();
 View::share('category', $category);
+```
 
 потом убрать комменты
 
