@@ -17,6 +17,6 @@ View::share('category', $category);
 
   потом убрать комменты
 
-6. php artisan db:seed --class=CategoriesTableSeeder
+6. ```php artisan db:seed --class=CategoriesTableSeeder```
 
   Готово.
