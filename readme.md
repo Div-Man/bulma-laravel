@@ -20,3 +20,7 @@ View::share('category', $category);
 6. ```php artisan db:seed --class=CategoriesTableSeeder```
 
   Готово.
+
+Что бы не дублировать код, категории для меню загружаются в провайдере ```CategoryServiceProvider```.
+Всё использовано из коробки, кроме пакета **Intervention Image**.
+
